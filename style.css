@@ -1,0 +1,124 @@
+body {
+    background-color:#ffebeb;
+}
+
+h2 {
+    background-color: #71474E;
+    color: #ffebeb;
+    font-family: Garamond, serif;
+    font-size: 40pt;
+    text-align: center;
+    letter-spacing: 0.25em;
+    margin-bottom: 0em;
+    padding: 0.25em
+}
+
+header p {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Gill Sans", Verdana, sans-serif;
+    letter-spacing: 0.5em;
+    font-size: 1.3em;
+    background-color: #71474E;
+    color: #ffebeb;
+    padding: 0em;
+    margin-top: 0em;
+    padding-bottom: 1em;
+}
+
+.contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 1em
+}
+.contact a {
+    color: #2A3C3C;
+    margin: 0 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+
+}
+.contact a:hover {
+    color: #C08787;
+}
+
+.about-me h3 {
+    background-color: #E3CACA;
+    color: #2A3C3C;
+    font-family: Garamond, serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0.25em;
+    letter-spacing: 0.2em;
+    margin-bottom: 1em;
+}
+.about-me p {
+    color: #71474E;
+    font-family: "Gill Sans", Verdana, sans-serif;
+    font-size: 1em;
+    font-weight:bold;
+}
+
+.projects h3 {
+    margin-top: 3em;
+    background-color: #E3CACA;
+    color: #2A3C3C;
+    font-family: Garamond, serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0.25em;
+    letter-spacing: 0.2em;
+}
+.projects h5{
+    font-family: Garamond, serif;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    color: #4d5656;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.project-sample {
+    display: flex;
+    align-items: stretch;
+    gap: 1em;
+}
+
+.description-box {
+    border: 4px solid #E3CACA;
+    padding: 1em;
+    flex: 1;
+    background-color:#71474E;
+}
+
+.description-box p {
+    margin: 0;
+    color: #fff;
+    font-family: "Gill Sans", Verdana, sans-serif;
+    font-size: 0.9em;
+    font-weight:bold;
+    line-height: 2em;
+}
+
+.image-box a {
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+.image-box img {
+    width: 300px;
+    display: block;
+    transition: transform 0.2s ease;
+}
+.image-box img:hover {
+    transform: scale(1.05);
+}
+.image-box {
+    border: 6px solid #71474E;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color:#E3CACA;
+
+}
